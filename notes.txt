@@ -8,3 +8,9 @@ What do we need for this project?
 -
 
 3. 
+
+
+
+(terminal issues with github)
+
+use git config pull.rebase false to reconcile divergent branches.
