@@ -1,0 +1,5 @@
+What do we need for this project? 
+
+1. Dom selectors, on click events, multiple functions, a array (possibly of objects, etc...)
+
+2. DOM selectors: A main button is neccesary for the most critical function of the project, adding an item to an ordered list. Multiple inputs neccesary. (calandar, $ amount, and an optional comment option)
