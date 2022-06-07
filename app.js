@@ -7,12 +7,9 @@ const CommentInput = document.getElementById("Comment");
 const ListItems = document.getElementById("ListItems");
 // -- Add event listeners --
 MainButton.addEventListener("click", (e) => {
-  const CurrentDateInputValue = DateInput;
-
-  addItem(CurrentDateInputValue.value);
-  console.log(CurrentDateInput);
+  addItem();
 });
-
+// on click event calls add item function, item is then accessed via the console.
 // -- functions --
 
 function addItem() {
@@ -21,5 +18,6 @@ function addItem() {
     amount: DollarInput.value,
     comment: CommentInput.value,
   });
+  console.log(Items);
 }
 //putting the elements in an obj
