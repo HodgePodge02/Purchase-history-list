@@ -7,10 +7,8 @@ What do we need for this project?
 -$ amount unput can ONLY accept numbers
 -
 
-3. 
-
-
-
-(terminal issues with github)
+3.(terminal issues with github)
 
 use git config pull.rebase false to reconcile divergent branches.
+
+4. Write more supporting functions for 06/10/2022
